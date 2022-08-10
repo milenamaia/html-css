@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        table{ 
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 3opx;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 40px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">46 649 132</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total de habitantes</td>
+                <td class="num"><strong>473.434.242.665.142</strong></td>
+            </tr>
+        </tfoot>
+    </table>    
+</body>
+</html>
