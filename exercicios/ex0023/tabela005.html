@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 5px;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.primeiro{
+            background-color: rgb(113, 106, 121);
+        }
+        col.segundo{
+            background-color: rgb(32, 158, 158);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="primeiro">
+            <col class="segundo" span="2">
+            <col class="terceiro">
+            <col class="quarto">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col" class="primeiro">Nome</th>
+            <th scope="col" class="segundo">Nome</th>
+            <th scope="col" class="terceiro">Nome</th>
+            <th scope="col" class="quarto">Nome</th>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+        <tr>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+            <td>alguem</td>
+        </tr>
+    </table>
+</body>
+</html>
