@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exempo de Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <h1>Formulario</h1>
+        <label for="icomida">Comidinhas :</label>
+        <select name="comidinhas" id="icomida">
+            <option value="pao">Pão de forma</option>
+            <option value="pao">Pão de forma</option>
+        </select>
+
+        <p>
+            <label for="melhor">Qual e o melhor: </label>
+            <input type="text" name="comida" id="melhor" list="comidaa">
+            <datalist id="comidaa">
+                <option value="pr">Pão Recheado</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="eicomida">Comida: </label> <br>
+            <textarea name="dacomida" id="eicomida" cols="25" rows="5"></textarea>
+        </p>
+    </form>
+    
+</body>
+</html>
